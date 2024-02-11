@@ -1,0 +1,4 @@
+FROM almalinux:8
+LABEL TRAINEEING="DEVOPS" \
+      TRAINER="SHIVA" \
+      DURATION="10HRS"  
