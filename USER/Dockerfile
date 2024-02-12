@@ -1,3 +1,6 @@
 FROM almalinux:8
-RUN adduser siva
-USER siva
+#need root user
+RUN adduser siva 
+#no nned root user
+USER siva 
+CMD ["sleep", "100"]
